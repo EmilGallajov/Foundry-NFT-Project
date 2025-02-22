@@ -1,6 +1,5 @@
 # NFT Project - Foundry
 
-![License](https://img.shields.io/github/license/EmilGallajov/NFT-Project-Foundry)
 ![Solidity](https://img.shields.io/badge/Solidity-%5E0.8.0-blue)
 
 ## Overview
