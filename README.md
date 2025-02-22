@@ -1,66 +1,18 @@
-## Foundry
+# NFT Project - Foundry
 
-**Foundry is a blazing fast, portable and modular toolkit for Ethereum application development written in Rust.**
+![License](https://img.shields.io/github/license/EmilGallajov/NFT-Project-Foundry)
+![Solidity](https://img.shields.io/badge/Solidity-%5E0.8.0-blue)
 
-Foundry consists of:
+## Overview
+This project is a basic NFT smart contract built using the Foundry framework. It demonstrates how to create, mint, and manage NFTs on the Ethereum blockchain.
 
--   **Forge**: Ethereum testing framework (like Truffle, Hardhat and DappTools).
--   **Cast**: Swiss army knife for interacting with EVM smart contracts, sending transactions and getting chain data.
--   **Anvil**: Local Ethereum node, akin to Ganache, Hardhat Network.
--   **Chisel**: Fast, utilitarian, and verbose solidity REPL.
+## Features
+- **ERC-721 Token Standard**: Implements a standard non-fungible token.
+- **Minting Functionality**: Allows users to mint unique NFTs.
+- **Metadata Management**: Supports URI storage for NFT metadata.
+- **Foundry Framework**: Uses Foundry for smart contract development and testing.
 
-## Documentation
-
-https://book.getfoundry.sh/
-
-## Usage
-
-### Build
-
-```shell
-$ forge build
-```
-
-### Test
-
-```shell
-$ forge test
-```
-
-### Format
-
-```shell
-$ forge fmt
-```
-
-### Gas Snapshots
-
-```shell
-$ forge snapshot
-```
-
-### Anvil
-
-```shell
-$ anvil
-```
-
-### Deploy
-
-```shell
-$ forge script script/Counter.s.sol:CounterScript --rpc-url <your_rpc_url> --private-key <your_private_key>
-```
-
-### Cast
-
-```shell
-$ cast <subcommand>
-```
-
-### Help
-
-```shell
-$ forge --help
-$ anvil --help
-$ cast --help
-```
+## Prerequisites
+Before running the project, make sure you have:
+- [Foundry](https://book.getfoundry.sh/) installed
+- A MetaMask wallet (for testing on a local network or testnet)
